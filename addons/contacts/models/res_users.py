@@ -17,5 +17,5 @@ class Users(models.Model):
             if activity['model'] != 'res.partner':
                 continue
             activity['icon'] = modules.module.get_module_icon('contacts')
-            print("Hellow")
+            print("Hellow Rochid you are best of the best")
         return activities
